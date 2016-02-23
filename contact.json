@@ -1,0 +1,26 @@
+[
+  {
+    "street_address": "34 High Street",
+    "town": "Townton",
+    "county": "Countyshire",
+    "postcode": "QW12 3ER",
+    "country": "UK",
+    "phone": "03123 123 123"
+  },
+  {
+    "street_address": "1983 Main Av.",
+    "town": "Cityville",
+    "county": "New York",
+    "postcode": "86752",
+    "country": "USA",
+    "phone": "01111 123 123"
+  },
+  {
+    "street_address": "1 Gator Lane",
+    "town": "Dustyville",
+    "county": "The Outback",
+    "postcode": "ZXC678",
+    "country": "Australia",
+    "phone": "9878 123 123"
+  }
+]

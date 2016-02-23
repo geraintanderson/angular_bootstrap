@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Contact Us</h1>
+  <p>Find us at one of our offices</p>
+  <div ng-repeat="contact in contacts">
+    <em>{{contact.country}}</em>
+    <ul>
+      <li>{{contact.street_address}}</li>
+      <li>{{contact.town}}</li>
+      <li>{{contact.county}}</li>
+      <li>{{contact.postcode}}</li>
+      <li>{{contact.phone}}</li>
+    </ul>
+  </div>
+</div>
