@@ -2,16 +2,33 @@
   {
     "headline": "Example headline.",
     "content": "Note: If you're viewing this page via a <code>file://</code> URL, the next and previous Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
-    "button-text": "Sign up today"
+    "image": "http://lorempixel.com/601/300",
+    "text": "Nice image",
+    "buttontext": "Sign up today",
+    "id": 0
   },
   {
     "headline": "Another example headline.",
     "content": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-    "button-text": "Learn more"
+    "image": "http://lorempixel.com/602/300",
+    "text": "Awesome photograph",
+    "buttontext": "Learn more",
+    "id": 1
   },
   {
     "headline": "One more for good measure.",
     "content": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
-    "button-text": "Browse gallery"
+    "image": "http://lorempixel.com/603/300",
+    "text": "That is so cool",
+    "buttontext": "Browse gallery",
+    "id": 2
+  },
+  {
+    "headline": "One more for good measure.",
+    "content": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+    "image": "http://lorempixel.com/604/300",
+    "text": "I love that",
+    "buttontext": "Click me",
+    "id": 3
   }
 ]

@@ -21,7 +21,7 @@ var app = angular.module("carouselExample", ['ngRoute', 'ngAnimate', 'ui.bootstr
   console.log('MainCtrl loaded in!!!');
 }])
 
-// NEXT TO DO - Why is the next section overlapping the carousel??  Also need to put all the content from carousel.json into carousel2.json and wire it up! cv
+// NEXT TO DO - Why is the next section overlapping the carousel??
 
 /*.controller('carouselCtrl', ['$scope', '$http', function($scope, $http){
   console.log('carouselCtrl loaded in!!!');
@@ -38,11 +38,9 @@ var app = angular.module("carouselExample", ['ngRoute', 'ngAnimate', 'ui.bootstr
 
 .controller('CarouselDemoCtrl', function ($scope, $http) {
 
-  $http.get('carousel2.json').then(function(res){
+  $http.get('carousel.json').then(function(res){
     console.log(res.data);
     $scope.slides = res.data;
   });
-
-  //var currIndex = 0;
 
 });
