@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+  <head>
+    <script src="angular.min.js"></script>
+    <script src="angular-animate.min.js"></script>
+    <script src="ui-bootstrap-tpls-1.1.2.min.js"></script>
+    <script src="carousel_demo_tmp.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div ng-controller="CarouselDemoCtrl">
+      <div style="height: 305px">
+        <uib-carousel interval="2000">
+          <uib-slide ng-repeat="slide in slides">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">
+              <h4>Slide {{slide.id}}</h4>
+              <p>{{slide.text}}</p>
+            </div>
+          </uib-slide>
+        </uib-carousel>
+      </div>
+    </div>
+  </body>
+</html>
